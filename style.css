@@ -1,0 +1,221 @@
+/*Reset: */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*Geral: */
+body {
+    width: 100%;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(18, 18, 20);
+    color:  rgb(216, 216, 221);;
+}
+
+.botao-inicio {
+    width: 70px;
+    height: 70px;
+    margin-left: 83px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+
+    background: rgb(81, 81, 88);
+    color: rgb(216, 216, 221);
+
+    text-transform: uppercase;
+    text-align: center;
+
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.botao-inicio:hover {
+    background: rgb(247, 158, 49);
+    color:rgb(18, 18, 20);
+}
+
+.botao-inicio a {
+    color: rgb(216, 216, 221);
+}
+
+.imagem-seta {
+    width: 40px;
+    height: 40px;
+    transform: rotateY(180deg);
+}
+
+.linha-horizontal {
+    width: 100%;
+    border: 1px solid rgb(216, 216, 221);
+}
+
+ul {
+    list-style: none;
+}
+
+/*Início: */
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 26px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    margin-top: 26px;
+}
+
+.foto-perfil {
+    width: 80px;
+    height: 80px;
+    border: 2px solid rgb(247, 158, 49);
+    border-radius: 100%;
+}
+
+.conteudo-principal ul li a {
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(81, 81, 88);
+    color: rgb(216, 216, 221);
+    text-transform: uppercase;
+  
+    margin-top: 16px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    transition: background 400ms;
+}
+
+.conteudo-principal ul li a:hover {
+    background: rgb(247, 158, 49);
+    color: rgb(18, 18, 20);
+}
+
+/*Glossário: */
+.glossario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10%;
+    margin: 85px;
+    border-radius: 10px;
+    
+    background: rgb(81, 81, 88);
+}
+
+.glossario dt {
+    font-weight: bold;
+}
+
+.glossario dt a {
+    color: rgb(216, 216, 221);
+}
+
+.glossario dd {
+    opacity: 0.8;
+}
+
+.titulo-glossario {
+    margin-bottom: 80px;
+}
+
+/*Formulário: */
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10%;
+    margin: 85px;
+    border-radius: 10px;
+
+    background: rgb(81, 81, 88);
+}
+
+.formulario legend {
+    text-transform: uppercase;
+    font-weight: bold;
+
+    margin-bottom: 10px;
+}
+
+/*Lista de compras: */
+.lista-compras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10%;
+    margin: 85px;
+    border-radius: 10px;
+
+    background: rgb(81, 81, 88);
+}
+
+.lista-compras hr {
+    color: rgb(247, 158, 49);
+}
+
+/*Quiz: */
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10%;
+    margin: 85px;
+    border-radius: 10px;
+
+    background: rgb(81, 81, 88);
+}
+
+/*Blog Post: */
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10%;
+    margin: 85px;
+    border-radius: 10px;
+
+    background: rgb(81, 81, 88);
+}
+
+.blog .imagem-1 {
+    width: 400px;
+    height: 400px;
+}
+
+.blog .imagem-2 {
+    width: 300px;
+    height: 400px;
+}
+
+.blog aside span {
+    font-weight: bold;
+}
+
+.blog header a {
+    color: rgb(216, 216, 221);
+}
+
+
