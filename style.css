@@ -19,7 +19,7 @@ body {
 .botao-inicio {
     width: 70px;
     height: 70px;
-    margin-left: 83px;
+    margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50px;
 
@@ -49,7 +49,9 @@ body {
 }
 
 .linha-horizontal {
+    /* position: fixed; */
     width: 100%;
+    background-color: rgb(216, 216, 221);
     border: 1px solid rgb(216, 216, 221);
 }
 
@@ -69,6 +71,11 @@ ul {
 img {
     width: 60px;
     height: 60px;
+}
+
+main {
+    border: 1px solid rgb(81, 81, 88);
+    margin: 20px 20% 20px 20%;
 }
 
 .perfil {
@@ -93,6 +100,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    
     background: rgb(81, 81, 88);
     color: rgb(216, 216, 221);
     text-transform: uppercase;
@@ -115,7 +123,7 @@ img {
     align-items: center;
     gap: 30px;
     padding: 10%;
-    margin: 85px;
+    margin: 50px;
     border-radius: 10px;
     
     background: rgb(81, 81, 88);
@@ -144,7 +152,7 @@ img {
     align-items: center;
     gap: 30px;
     padding: 10%;
-    margin: 85px;
+    margin: 50px;
     border-radius: 10px;
 
     background: rgb(81, 81, 88);
@@ -164,7 +172,7 @@ img {
     align-items: center;
     gap: 30px;
     padding: 10%;
-    margin: 85px;
+    margin: 50px;
     border-radius: 10px;
 
     background: rgb(81, 81, 88);
@@ -181,7 +189,7 @@ img {
     align-items: center;
     gap: 30px;
     padding: 10%;
-    margin: 85px;
+    margin: 50px;
     border-radius: 10px;
 
     background: rgb(81, 81, 88);
@@ -194,10 +202,18 @@ img {
     align-items: center;
     gap: 30px;
     padding: 10%;
-    margin: 85px;
+    margin: 50px;
+    margin-bottom: 50px;
     border-radius: 10px;
 
     background: rgb(81, 81, 88);
+}
+
+.blog header {
+    display: flex;
+    gap: 229px;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
 .blog .imagem-1 {
@@ -218,4 +234,57 @@ img {
     color: rgb(216, 216, 221);
 }
 
+/*Responsivo: */
+@media (max-width: 1250px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
+    .cabecalho h1 {
+        text-align: center;
+    }
+
+    .perfil p {
+        text-align: center;
+    }
+
+    .conteudo-principal ul li a {
+        width: 180px;
+    }
+
+    .blog {
+        margin: 30px;
+        font-size: 10px;
+    }
+
+    .blog header {
+        display: flex;
+        gap: 30px;
+    }
+
+    .blog .imagem-1 {
+        width: 200px;
+        height: 200px;
+    }
+
+    .blog .imagem-2 {
+        width: 200px;
+        height: 250px;
+    }
+
+    .formulario {
+        margin: 15px;
+    }
+}
+
+@media (max-width: 520px) {
+    .conteudo-principal ul li a {
+        width: auto;
+    }
+    
+    .blog aside {
+        margin: 0 50% 0 50%;
+    }
+}
