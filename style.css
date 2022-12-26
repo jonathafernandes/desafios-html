@@ -236,6 +236,10 @@ main {
 
 /*Responsivo: */
 @media (max-width: 1250px) {
+    .botao-inicio {
+        margin-left: 15px;
+    }
+    
     .cabecalho{
         display: flex;
         flex-direction: column;
@@ -254,8 +258,12 @@ main {
         width: 180px;
     }
 
+    .formulario {
+        margin: 15px;
+    }
+
     .blog {
-        margin: 30px;
+        margin: 15px;
         font-size: 10px;
     }
 
@@ -273,10 +281,6 @@ main {
         width: 200px;
         height: 250px;
     }
-
-    .formulario {
-        margin: 15px;
-    }
 }
 
 @media (max-width: 520px) {
@@ -286,5 +290,9 @@ main {
     
     .blog aside {
         margin: 0 50% 0 50%;
+    }
+
+    .botao-inicio {
+        margin-left: 15px;
     }
 }
