@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Página de agrupamento de links com desafios de HTML proposto pela Rocketseat através do curso<a href="https://www.rocketseat.com.br/discover">Discover.</a>
+Página de agrupamento de links com desafios de HTML proposto pela Rocketseat através do curso <a href="https://www.rocketseat.com.br/discover">Discover.</a>
 
 ## 🖱️ Visite
 
