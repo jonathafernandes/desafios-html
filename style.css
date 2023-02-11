@@ -17,8 +17,8 @@ body {
 }
 
 .botao-inicio {
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     margin-left: 50px;
     margin-bottom: 50px;
     border-radius: 50px;
@@ -199,11 +199,9 @@ main {
 .blog {
     display: flex;
     flex-direction: column;
-    align-items: center;
     gap: 30px;
-    padding: 10%;
+    padding: 5%;
     margin: 50px;
-    margin-bottom: 50px;
     border-radius: 10px;
 
     background: rgb(81, 81, 88);
@@ -211,9 +209,14 @@ main {
 
 .blog header {
     display: flex;
-    gap: 229px;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: 60px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.blog header a {
+    color: rgb(216, 216, 221);
 }
 
 .blog .imagem-1 {
@@ -222,17 +225,14 @@ main {
 }
 
 .blog .imagem-2 {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 300px;
 }
 
-.blog aside span {
+.section-2 span {
     font-weight: bold;
 }
 
-.blog header a {
-    color: rgb(216, 216, 221);
-}
 
 /*Responsivo: */
 @media (max-width: 1250px) {
@@ -267,29 +267,16 @@ main {
         font-size: 10px;
     }
 
-    .blog header {
-        display: flex;
-        gap: 30px;
-    }
-
     .blog .imagem-1 {
         width: 200px;
         height: 200px;
     }
 
-    .blog .imagem-2 {
-        width: 200px;
-        height: 250px;
-    }
 }
 
 @media (max-width: 520px) {
     .conteudo-principal ul li a {
         width: auto;
-    }
-    
-    .blog aside {
-        margin: 0 50% 0 50%;
     }
 
     .botao-inicio {
